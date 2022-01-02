@@ -1,0 +1,13 @@
+.postTitle{
+    margin:-2px;
+    padding: 5px;
+    width: 80%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.postImg{
+    object-fit: cover;
+    border-radius: 5px;
+}
+   
