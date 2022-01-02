@@ -7,6 +7,15 @@ const Header = ({ title }) => {
         <header className='Header'>
             <h1>{title}</h1>
             <Button color='orange' text='New Blog'/>
+            <br />
+            <br />
+            <br />
+            <select class="col-xs-2" aria-label="Default select example">
+            <option selected>Genre</option>
+            <option value="Supernatural">Supernatural</option>
+            <option value="sci-Fi">sci-Fi</option>
+            <option value="Horror">Horror</option>
+            </select>
         </header>
     )
 }
