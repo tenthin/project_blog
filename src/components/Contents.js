@@ -1,3 +1,6 @@
+
+
+
 const contents = [                   //blogPost is an array
   {
     title: "This Curse is Awesome",              //heading

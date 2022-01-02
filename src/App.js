@@ -1,13 +1,13 @@
 import Header from './components/Header'
 import Contents from './components/Contents'
+import Post from './components/Post'
 
 function App () {
   return (
-      <div className='top'>
+      <div >
         <Header />
-        <div className='genre' ></div>
-        <div className='button'></div>
-        <Contents />
+        <Post />
+        {/* <Contents /> */}
       </div>     
   )
 }
