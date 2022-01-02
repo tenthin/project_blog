@@ -1,11 +1,9 @@
 const Button = ({color,text}) => {
     return (
-        <button style={{ backgroundColor: color}} 
-        className="btn">
+        <button className="btn btn-success btn-lg float-right" style={{ backgroundColor: color}}>
         New Blog
         </button>
     )
-
 }
 
 export default Button

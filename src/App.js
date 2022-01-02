@@ -1,12 +1,14 @@
 import Header from './components/Header'
 import Contents from './components/Contents'
 
-const App = () => {
+function App () {
   return (
-    <div className="container">
-      <Header />   
-      <Contents />  
-    </div>
+      <div className='top'>
+        <Header />
+        <div className='genre' ></div>
+        <div className='button'></div>
+        <Contents />
+      </div>     
   )
 }
 

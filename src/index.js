@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
 import Images from './components/Images'
 
@@ -10,15 +8,7 @@ import Images from './components/Images'
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
     <Images />
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-
-reportWebVitals();
