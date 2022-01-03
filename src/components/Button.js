@@ -1,12 +1,14 @@
 import "./button.css"
 
-
-const Button = ({color,text}) => {
+export default function Button() {
     return (
-        <button className="btn btn-success btn-lg float-right" style={{ backgroundColor: color}}>
-        New Blog
-        </button>
+        <div className="button">
+            <button className="btn btn-success btn-lg float-right" >
+            New Blog
+            </button>
+        </div>
     )
 }
 
-export default Button
+
+

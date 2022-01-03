@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types'
 import "./header.css"
-import Button from './Button'
 
 export default function Header () {
     return (

@@ -1,15 +1,25 @@
 import Header from './components/Header'
-import Contents from './components/Contents'
 import Post from './components/Post'
 import Button from './components/Button'
+
 
 function App () {
   return (
       <div >
-        <Header />
-        <Post />
-        <Button />
-        {/* <Contents /> */}
+        <table>
+          <tr >
+              <td colspan= "2"> <Header /></td>
+              
+          </tr>
+          <tr >
+              <td> <Post /></td>
+              <td><Button /></td>
+          </tr>
+        </table>
+       
+        
+       
+      
       </div>     
   )
 }
