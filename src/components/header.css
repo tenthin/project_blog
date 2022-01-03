@@ -11,6 +11,21 @@
 
 .headLeft,.headRight{
     flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headCenter{
+    flex: 6;
+}
+
+
+.headIcon{
+    font-size: 20px;
+    margin-right: 5px;
+    color: #444;
+    cursor: pointer;
 }
 
 .headImage{
@@ -20,8 +35,24 @@
     object-fit: cover;
 }
 
-
-.headCenter{
-    flex: 6;
+.headList{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
+.headListItem{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.headSearchIcon{
+    font-size: 18px;
+    color: #666;
+    cursor: pointer;
+    margin-left: 15px;
+}

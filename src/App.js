@@ -1,7 +1,4 @@
-import Header from './components/Header'
-import Post from './components/Post'
-import Button from './components/Button'
-
+import Header from "./components/Header";
 
 function App () {
   return (
@@ -9,20 +6,6 @@ function App () {
     <Header/>
     </>
   )
-        {/* <table>
-          <tr >
-              <td colspan= "2"> <Header /></td>   
-          </tr>
-          <tr>
-            <td><Button /></td>
-          </tr>
-          <tr >
-              <td> <Post /></td>
-          </tr>
-        </table>
-       
-         */}   
-  
 }
 
 export default App
