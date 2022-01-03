@@ -1,7 +1,9 @@
- .button{
-     color: chartreuse;
- }
+.button{
+    float: right;
+}
 
- .btn {
-     background-color: chartreuse;
- }
+/* 
+line-height: 12px;
+font-size: 8pt;
+margin-top: 1px;
+margin-right: 2px; */

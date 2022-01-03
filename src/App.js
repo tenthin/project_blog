@@ -5,23 +5,24 @@ import Button from './components/Button'
 
 function App () {
   return (
-      <div >
-        <table>
+    <>
+    <Header/>
+    </>
+  )
+        {/* <table>
           <tr >
-              <td colspan= "2"> <Header /></td>
-              
+              <td colspan= "2"> <Header /></td>   
+          </tr>
+          <tr>
+            <td><Button /></td>
           </tr>
           <tr >
               <td> <Post /></td>
-              <td><Button /></td>
           </tr>
         </table>
        
-        
-       
-      
-      </div>     
-  )
+         */}   
+  
 }
 
 export default App
