@@ -1,5 +1,6 @@
-import './posts.css'
 import Post from "../post/Post"
+import "./posts.css"
+
 
 export default function Posts() {
     return (
@@ -12,4 +13,4 @@ export default function Posts() {
             <Post/> 
         </div>
     )
-} 
+}
