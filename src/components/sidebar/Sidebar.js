@@ -17,16 +17,16 @@ export default function Sidebar() {
                 <ul className="sidebarList">
                     <li className="sidebarListItem">VEG</li>
                     <li className="sidebarListItem">NON-VEG</li>
-                    <li className="sidebarListItem">MAIN FOOD</li>
+                    <li className="sidebarListItem">MAIN-DISH</li>
                     <li className="sidebarListItem">APPETIZER</li>
                 </ul>
                 <div className="sidebarItem">
                     <span className="sidebarTitle">FOLLOW US</span>
                     <div className="sidebarSocial">
-                        <i className="topIcon fab fa-facebook-square"></i>
-                        <i className="topIcon fab fa-twitter-square"></i>
-                        <i className="topIcon fab fa-instagram-square"></i>
-                        <i className="topIcon fab fa-youtube-square"></i> 
+                        <i className="sidebarIcon fab fa-facebook-square"></i>
+                        <i className="sidebarIcon fab fa-twitter-square"></i>
+                        <i className="sidebarIcon fab fa-instagram-square"></i>
+                        <i className="sidebarIcon fab fa-youtube-square"></i> 
                     </div>
                 </div>
             </div>
