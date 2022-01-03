@@ -1,6 +1,6 @@
-import "./coverpage.css"
+import "./header.css"                     //coverpage = header
 
-export default function content() {
+export default function Header() {
     return (
         <div className="header">
             <div className="headerTitles">

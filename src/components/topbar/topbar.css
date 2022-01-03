@@ -1,4 +1,4 @@
-.head {
+.top {
     width: 100%;
     height: 50px;
     background-color: white;  
@@ -9,33 +9,33 @@
     align-items: center;
 }
 
-.headLeft,.headRight{
+.topLeft,.topRight{
     flex: 3;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.headCenter{
+.topCenter{
     flex: 6;
 }
 
 
-.headIcon{
+.topIcon{
     font-size: 20px;
     margin-right: 5px;
     color: #444;
     cursor: pointer;
 }
 
-.headImage{
+.topImage{
     width: 40px;
     height: 40px;
     border-radius: 50%;
     object-fit: cover;
 }
 
-.headList{
+.topList{
     display: flex;
     justify-content: center;
     margin: 0;
@@ -43,14 +43,14 @@
     list-style: none;
 }
 
-.headListItem{
+.topListItem{
     margin-right: 20px;
     font-size: 18px;
     font-weight: 300;
     cursor: pointer;
 }
 
-.headSearchIcon{
+.topSearchIcon{
     font-size: 18px;
     color: #666;
     cursor: pointer;
