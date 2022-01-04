@@ -25,7 +25,7 @@ export default function Settings() {
                     <input type="email" placeholder='safak@gmail.com'/>
                     <label>Password</label>
                     <input type="password" />
-                    <buttom className="settingsSubmit">Update</buttom>
+                    <button className="settingsSubmit">Update</button>
                 </form>
             </div>
             <Sidebar/>

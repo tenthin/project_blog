@@ -3,7 +3,7 @@ import "./topbar.css"
 export default function Topbar () {
     return (
         <div className='top'>
-            <div className="top">
+            <div className="topLeft">
                 <i className="topIcon fab fa-facebook-square"></i>
                 <i className="topIcon fab fa-twitter-square"></i>
                 <i className="topIcon fab fa-instagram-square"></i>
